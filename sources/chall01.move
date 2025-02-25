@@ -1,5 +1,6 @@
 // Define the module
 // Module are used to keep the code tidy and reusable
+#[allow(duplicate_alias)]
 module 0x0::simple_token {
     // Import necessary libraries
     use sui::object; // Grabs tools for making  objects like (Token) and UID
